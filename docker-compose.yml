@@ -2,7 +2,7 @@ version: '2'
 services:
   openfire:
     restart: always
-    image: ruby/openfire:4.2.3
+    image: litvil/openfire:4.2.3
     build: ./openfire
     container_name: openfire
     ports:
